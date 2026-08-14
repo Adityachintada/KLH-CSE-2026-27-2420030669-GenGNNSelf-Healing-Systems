@@ -1,6 +1,6 @@
 # Context-Aware Self-Healing Distributed Systems Using Generative Graph Neural Networks for Dynamic Fault Remediation
 
-This project implements an Adaptive Software Engineering (ASE) architecture using the MAPE-K loop. It uses Generative Graph Neural Networks to model distributed node topology and dynamically generate remediation actions to handle synthetic fault injections like latency and process crashes.
+Modern distributed architectures face rapid cascading failures that static rule-based monitoring cannot efficiently isolate. This project introduces an autonomous self-healing framework driven by Generative Graph Neural Networks (GNNs) integrated into a MAPE-K control loop. Telemetry and service dependencies are modelled as dynamic spatio-temporal graphs. A Generative Graph Autoencoder detects structural anomalies, reconstructs baseline topologies, and synthesizes context-aware remediation workflows-including automated traffic rerouting and dynamic node isolation. Evaluated under synthetic chaos benchmarks, the system significantly reduces Mean Time to Remediation (MTTR) and prevents cascading system downtime.
 
 ## Team Members
 
