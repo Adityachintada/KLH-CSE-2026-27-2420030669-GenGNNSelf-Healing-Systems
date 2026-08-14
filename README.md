@@ -11,6 +11,8 @@ This project implements an Adaptive Software Engineering (ASE) architecture usin
 | 2420090098  | A.AARYAN   |
 | 2420030679  | G.Nishanth |
 
+**Supervisor:** G.LAVANYA
+
 ## Architecture Breakdown
 
 - Monitor: Telemetry listener continuously gathers metrics from distributed nodes and converts state to a graph representation.
